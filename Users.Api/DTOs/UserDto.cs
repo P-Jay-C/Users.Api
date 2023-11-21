@@ -1,4 +1,6 @@
-﻿namespace Users.Api.DTOs
+﻿using Users.Api.Models;
+
+namespace Users.Api.DTOs
 {
     public class UserDto
     {
@@ -6,5 +8,7 @@
         public string? LastName { get; set; }
         public int Age { get; set; }
         public int PersonalNumber { get; set; }
+
+        public int? UsernameId { get; set; }
     }
 }
